@@ -1,0 +1,2 @@
+#!/bin/sh
+for i in `cat nonore.list.txt`; do filtlong --min_length 500 --min_mean_q 90 /ifs1/User/maiguoqin/pathogen/国家病原库基因组/bacteria_virus_funge_para_arm/test2/$i | gzip> /ifs1/User/maiguoqin/pathogen/国家病原库基因组/bacteria_virus_funge_para_arm/test2/1_zhikong/$i;done

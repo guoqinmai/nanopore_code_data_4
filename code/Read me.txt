@@ -1,0 +1,18 @@
+Step 1:quality control, code:1_zhikong.sh
+
+Step 2:removal of host contamination,code:2_suzhu.sh
+
+Step 3:Compressed files,code:3_yasuo.sh
+
+Step 4:Unzip files,code:4_jieya.sh
+
+Step 5:converted from FASTQ format to FASTA format,code:5_fasta.sh
+
+Step 6:aligned with the genome of pathogenic microorganisms using BLASTN software,code:6_blastn.sh
+
+Step 7: calculating the parameters of the BLASTN results.
+These parameters, including the number of matches, average, sum, reads_ratio, and all_sum, are related to the possible pathogenic microorganisms.
+Therefore, they were multiplied to obtain the product, and the proportion of each product was calculated. The proportions of the products are arranged in descending order. 
+The sample with the highest proportion of the product was considered the suspected pathogen of the sample.code:7_bingyuanjun_tongji.ipynb
+
+datas file:\data

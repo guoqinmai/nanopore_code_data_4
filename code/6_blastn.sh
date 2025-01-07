@@ -1,0 +1,2 @@
+#!/bin/sh
+for i in `cat nonore.list.txt`; do blastn -task blastn -query /ifs1/User/maiguoqin/pathogen/国家病原库基因组/bacteria_virus_funge_para_arm/test2/5_fasta/$i.fasta -db /ifs1/User/maiguoqin/pathogen/国家病原库基因组/bacteria_virus_funge_para_arm/db_4_de_phage/db_4_de_phage_ru.txt -out /ifs1/User/maiguoqin/pathogen/国家病原库基因组/bacteria_virus_funge_para_arm/test2/6_blastn/$i.txt -outfmt 6 -evalue 1e-5 -max_target_seqs 1 -num_threads 20;done

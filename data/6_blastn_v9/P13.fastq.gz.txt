@@ -1,0 +1,1 @@
+ERR3077530.sra.1727	gi|537108089|ref|NC_005881.2|_Ostreid_herpesvirus_1,_complete_genome	78.049	82	15	2	935	1014	60963	61043	7.70e-08	60.8

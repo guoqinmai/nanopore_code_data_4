@@ -1,0 +1,2 @@
+#!/bin/sh
+for i in `cat nonore.list.txt`; do perl -ne 'y/@/>/;print($_.<>)&&<>&&<>' /ifs1/User/maiguoqin/pathogen/国家病原库基因组/bacteria_virus_funge_para_arm/test2/4_jieya/$i >/ifs1/User/maiguoqin/pathogen/国家病原库基因组/bacteria_virus_funge_para_arm/test2/5_fasta/$i.fasta;done
