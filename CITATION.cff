@@ -1,0 +1,11 @@
+yaml
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  family-names: "Mai"
+    given-names: "Guoqin"
+    orcid: "https://orcid.org/0009-0001-9611-6870"
+title: "Construction of a pathogenic microorganism detection method based on third-generation nanopore sequencing data"
+version: "v1"
+doi: "10.1186/s12879-025-10559-5"
+date-released: "2025-02-07"
